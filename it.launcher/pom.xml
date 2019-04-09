@@ -27,7 +27,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>automation-build.it.launcher</artifactId>
+    <artifactId>chatbot-aem.it.launcher</artifactId>
     <packaging>jar</packaging>
     <name>chatbot - Integration Tests Launcher</name>
     <description>Integration Tests Launcher for chatbot</description>
@@ -230,8 +230,8 @@
                                 -->
                                 <sling.additional.bundle.1>org.apache.sling.junit.core</sling.additional.bundle.1>
                                 <sling.additional.bundle.2>org.apache.sling.junit.scriptable</sling.additional.bundle.2>
-                                <sling.additional.bundle.3>automation-build.it.tests</sling.additional.bundle.3>
-                                <sling.additional.bundle.4>automation-build.core</sling.additional.bundle.4>
+                                <sling.additional.bundle.3>chatbot-aem.it.tests</sling.additional.bundle.3>
+                                <sling.additional.bundle.4>chatbot-aem.core</sling.additional.bundle.4>
                                 <sling.additional.bundle.5>org.apache.sling.junit.remote</sling.additional.bundle.5>
                                 <sling.additional.bundle.6>org.apache.sling.testing.tools</sling.additional.bundle.6>
                                 <sling.additional.bundle.7>httpclient-osgi</sling.additional.bundle.7>
@@ -324,12 +324,12 @@
         </dependency>
         <dependency>
             <groupId>com.chatbot</groupId>
-            <artifactId>automation-build.it.tests</artifactId>
+            <artifactId>chatbot-aem.it.tests</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.chatbot</groupId>
-            <artifactId>automation-build.core</artifactId>
+            <artifactId>chatbot-aem.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

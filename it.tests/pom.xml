@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>automation-build.it.tests</artifactId>
+    <artifactId>chatbot-aem.it.tests</artifactId>
     <packaging>bundle</packaging>
     <name>chatbot - Integration Tests Bundles</name>
     <description>Bundles for Integration Tests for chatbot</description>
@@ -100,7 +100,7 @@
 
         <dependency>
             <groupId>com.chatbot</groupId>
-            <artifactId>automation-build.core</artifactId>
+            <artifactId>chatbot-aem.core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>bundle</type>
             <scope>provided</scope>

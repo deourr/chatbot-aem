@@ -23,7 +23,7 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>automation-build.core</artifactId>
+    <artifactId>chatbot-aem.core</artifactId>
     <packaging>bundle</packaging>
     <name>chatbot - Core</name>
     <description>Core bundle for chatbot</description>
