@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/chatbot-automation">
+        <exclude pattern="/apps/chatbot-automation/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/chatbot-automation"/>
+</workspaceFilter>
